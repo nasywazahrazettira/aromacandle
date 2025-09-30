@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aroma Candle – Produk</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header class="main-header">
+  <div class="nav-container">
+    <div class="logo-area">
+        <a href="index.html">
+             <img src="logo.png" alt="Logo Aroma Candle" class="logo">
+        </a>
+    </div>
+    <nav class="menu-center">
+      <a href="index.html">Home</a>
+      <a href="produk.html" class="active">Product</a>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="cart">
+      <i class="fas fa-shopping-cart"></i>
+    </div>
+  </div>
+</header>
+
+<section class="product-detail">
+  <div class="product-gallery">
+    <img src="lilin1.jpg" alt="Aurora Lavender" class="main-img">
+  </div>
+
+  <div class="product-info">
+    <h2>Aurora Lavender</h2>
+    <p class="short-desc">Lavender & chamomile untuk tidur nyenyak.</p>
+    <p class="price">Rp85.000 <span class="old-price">Rp100.000</span></p>
+
+    <div class="size-options">
+      <label>Pilih Ukuran:</label>
+      <button>100gr</button>
+      <button>200gr</button>
+    </div>
+
+    <div class="cart-actions">
+      <input type="number" value="1" min="1" class="qty-input">
+      <a href="#" class="btn-cart"><i class="fas fa-cart-plus"></i> Keranjang</a>
+      <a href="#" class="btn-buy">Pesan Sekarang</a>
+    </div>
+
+    <div class="extra-info">
+      <p><strong>Stok:</strong> Tersedia</p>
+      <p><strong>Kategori:</strong> Lilin Aromaterapi</p>
+      <p><strong>Tag:</strong> Lavender, Relax</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-top">
+    <div class="footer-col">
+      <h4>Aroma Candle</h4>
+      <p>Menciptakan momen hangat dan damai dengan lilin aromaterapi alami,
+         dibuat penuh cinta dan peduli lingkungan.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Menu</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="produk.html">Product</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Ikuti Kami</h4>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 Aroma Candle
+  </div>
+</footer>
+
+<script>
+  function changeImage(el){
+    document.getElementById("mainImage").src = el.src;
+  }
+</script>
+
+</body>
+</html>
